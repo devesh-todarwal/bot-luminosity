@@ -5,10 +5,10 @@ import tweepy
 import sys
 from os import environ
 
-CONSUMER_KEY = environ['CONSUMER_TOKEN']
-CONSUMER_SECRET = environ['CONSUMER_SECRET_TOKEN']
-ACCESS_KEY = environ['ACCESS_TOKEN']
-ACCESS_SECRET = environ['ACCESS_TOKEN_SECRET']
+CONSUMER_KEY = environ['CONSUMER_KEY']
+CONSUMER_SECRET = environ['CONSUMER_SECRET']
+ACCESS_KEY = environ['ACCESS_KEY']
+ACCESS_SECRET = environ['ACCESS_SECRET']
 
 
 def get_quotes():
