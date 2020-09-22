@@ -25,7 +25,8 @@ def create_tweet():
     quote = generate_quote()
     tweet = """
             {}
-            ~#{}
+            ~{}
+            #motivation #power
             """.format(quote['quote'], quote['author'])
     return tweet
 
